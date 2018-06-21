@@ -1,0 +1,23 @@
+
+img{
+    width:200px;
+    height: 200px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    grid-gap:10px;
+    background-image: linear-gradient(to right, #6C7FC3 0%, #8EE8B2 100%);
+    text-align: center;
+}
+.card__item{
+  
+   
+    padding: 5px;
+    background-image: linear-gradient(to bottom, #A95263 0%, #873E4A 100%);
+}
+
+.card__item:hover{
+    box-shadow: 1px 1px 1px #0a0a0a;
+}

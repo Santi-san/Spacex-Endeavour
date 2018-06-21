@@ -1,0 +1,15 @@
+<div class="container">
+<section>
+      <div class="cards">
+             <div *ngFor="let data of datas" class="card__item">
+                 <img [src]="data.image">
+                 <div>
+                   <p>Name:{{data.mission_name}}</p>
+                   <p>Year:{{data.launch_year}}</p>
+                 </div>
+                 <p>Status:{{data.launch_success}}</p>
+                 <p>{{data.launch_details}}</p>
+             </div>
+      </div>
+</section>
+</div>
